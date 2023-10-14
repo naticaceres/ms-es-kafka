@@ -11,38 +11,19 @@
         "runtime": {
           "bin/placeholder/CQRS.Core.dll": {}
         }
-      },
-      "Post.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "CQRS.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Post.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Post.Common.dll": {}
-        }
       }
     }
   },
   "libraries": {
     "CQRS.Core/1.0.0": {
       "type": "project",
-      "path": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj",
-      "msbuildProject": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj"
-    },
-    "Post.Common/1.0.0": {
-      "type": "project",
-      "path": "../../Post.Common/Post.Common.csproj",
-      "msbuildProject": "../../Post.Common/Post.Common.csproj"
+      "path": "../../CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+      "msbuildProject": "../../CQRS-ES/CQRS.Core/CQRS.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "CQRS.Core >= 1.0.0",
-      "Post.Common >= 1.0.0"
+      "CQRS.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj",
-      "projectName": "Post.Query.Domain",
-      "projectPath": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj",
+      "projectUniqueName": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Common\\Post.Common.csproj",
+      "projectName": "Post.Common",
+      "projectPath": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Common\\Post.Common.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Query\\Post.Query.Domain\\obj\\",
+      "outputPath": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -72,9 +53,6 @@
           "projectReferences": {
             "C:\\projects\\ms-es-kafka\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
               "projectPath": "C:\\projects\\ms-es-kafka\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
-            },
-            "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Common\\Post.Common.csproj": {
-              "projectPath": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Common\\Post.Common.csproj"
             }
           }
         }

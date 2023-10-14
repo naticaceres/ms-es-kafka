@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S+dktLfwUyV6JnnYGEpf+IQ59Rylh7HuGANczQU/fk9xHe5mz+wNYnHLPY8CqMdhioPY30pGlmD+xTV6GSOrDQ==",
+  "dgSpecHash": "rpTmd+53mH4OEyYNEo2NheirS+09ItXytxIGJmdb8XVqB8QsoFQS9FnwsKTV+LHY6ZO5hRxZ3sg847N0YAB07g==",
   "success": true,
   "projectFilePath": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj",
   "expectedPackageFiles": [

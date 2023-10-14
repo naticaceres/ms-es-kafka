@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "x4tBvvq266n++i4Rdn9fP0gWA7vpW+PclXYnAVeqN7yTkQh6o5jY4PNFWGq1UrFaH+qqZUvG5YSfPXGVfrqsHg==",
+  "dgSpecHash": "lOG0HVzem0A6V4UyWVIAcJtTYw5fafZ9DiB259x3NsUJLlBK2qMMF9xXpih6qOGd9JC3Wbgi/OuhPbg47UFq1A==",
   "success": true,
   "projectFilePath": "C:\\projects\\ms-es-kafka\\SM_Post\\Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj",
   "expectedPackageFiles": [
