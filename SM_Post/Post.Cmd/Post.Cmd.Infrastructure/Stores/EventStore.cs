@@ -1,14 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CQRS.Core.Domain;
 using CQRS.Core.Events;
 using CQRS.Core.Exceptions;
 using CQRS.Core.Infrastructure;
 using CQRS.Core.Producers;
 using Post.Cmd.Domain.Aggregate;
-using Post.Cmd.Infrastructure.Repositories;
 
 namespace Post.Cmd.Infrastructure.Stores
 {
