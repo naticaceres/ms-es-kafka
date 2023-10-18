@@ -6,16 +6,13 @@ project.lock.json
 nupkg/
 *.cache
 
-# Visual Studio Code
-.vscode
-
 # Rider
 .idea
 
 # User-specific files
 *.suo
 *.user
-*.userosscache
+*.userosscaches
 *.sln.docstates
 
 # Build results
