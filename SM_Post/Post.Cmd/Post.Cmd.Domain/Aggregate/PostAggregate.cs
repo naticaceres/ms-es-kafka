@@ -21,7 +21,13 @@ namespace Post.Cmd.Domain.Aggregate
 
         public PostAggregate(Guid id, string author, string message)
         {
-            RaiseEvent(new PostCreatedEvent { Id = id, Author = author, Message = message, DatePosted = DateTime.Now });
+            RaiseEvent(new PostCreatedEvent
+            {
+                Id = id,
+                Author = author,
+                Message = message,
+                DatePosted = DateTime.Now
+            });
         }
 
         public void Apply(PostCreatedEvent @event)
